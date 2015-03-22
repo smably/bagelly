@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bagelly</title>
+        <link rel="stylesheet" type="text/css" href="bagelly.css"/>
+    </head>
+    
+    <body>
+        <header class="maincolour">
+            <nav class="navbar">
+                <a href="index.html">Bagelly</a>
+                <a href="search.html">Search</a>
+                <a href="add.html">Add</a>
+            </nav>
+        </header>
+        
+        <div class="maincolour content">
+            <h1>Add a bagel store</h1>
+            
+            <form id="addsource">
+                <fieldset>
+                    <legend>Contact</legend>
+                    Store Name: <input type="text" id="storename"><br>
+                    Address: <input type="text" id="address"><br>
+                    Phone: <input type="text" id="phone"><br>
+                    Website: <input type="text" id="site"><br>
+                    Hours: urg I'll do this later
+                </fieldset>
+                <fieldset>
+                    <legend>Bagel Details</legend>
+                    <input type="checkbox" id="onlybagels" value="true"> Only serves bagels <br>
+                    <input type="checkbox" id="prep" value="true"> Ready to eat (toasted, cream cheese, fillings, etc) <br>
+                    Type of bagel: <select class="borderbrown" id="bageltype">
+                        <option value="none"></option>
+                        <option value="Montreal">Montreal</option>
+                        <option value="NY">New York</option>
+                    </select><br>
+                    Flavours: bleh, also doing this later - need presets and option for custom
+                </fieldset>
+                <fieldset>
+                    <legend>Store Details</legend>
+                    <input type="checkbox" id="eatin" value="true"> Eat in-store <br>
+                    <input type="checkbox" id="access" value="true"> Accessible <br>
+                    <input type="checkbox" id="chain" value="true"> Chain store <br>
+                    <input type="checkbox" id="cash" value="true"> Cash only <br>
+                    Price per bagel: <select class="borderbrown" id="pricerange">
+                        <option value="0"></option>
+                        <option value="1">$0.01 - $1.00</option>
+                        <option value="2">$1.00 - $2.50</option>
+                        <option value="3">$2.50 - $5.00</option>
+                        <option value="4">$5.00 or more</option>
+                    </select><br>
+                </fieldset>
+                <fieldset id="submit">
+                    <legend>Submit</legend>
+                        <button class="borderbrown" type="button">Add store</button>
+                </fieldset>
+            
+            
+            </form>
+            
+            <div class="results">
+                <p>Bagel store added!</p>
+                <button class="borderbrown" type="button">Awesome!</button>
+            </div>
+
+            
+        </div>
+        
+        <footer class="navbar maincolour">
+            <p>Bagelly is made by Kerry and Sylvan!  Yay!</p>
+        </footer>
+    
+    
+    </body>
+</html>
