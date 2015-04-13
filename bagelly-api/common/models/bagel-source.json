@@ -1,0 +1,62 @@
+{
+  "name": "bagel-source",
+  "plural": "bagel-sources",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "object",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "object"
+    },
+    "website": {
+      "type": "string"
+    },
+    "just-bagels": {
+      "type": "boolean"
+    },
+    "bagel-types": {
+      "type": [
+        "string"
+      ]
+    },
+    "flavours": {
+      "type": [
+        "string"
+      ]
+    },
+    "eat-in": {
+      "type": "boolean"
+    },
+    "prices": {
+      "type": "object"
+    },
+    "accessible": {
+      "type": "boolean"
+    },
+    "chain": {
+      "type": "boolean"
+    },
+    "payment-method": {
+      "type": [
+        "string"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
